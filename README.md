@@ -38,21 +38,21 @@ and now:
 
 ## Extra
 
-# Monitoring/Alerting
+### Monitoring/Alerting
 
 CloudWatch Metrics (EC2, ECS metrics are available), CloudWatch Alarms can be used.
 
-# Security
+### Security
 
 Different Security Groups for application and RDS are used.
 
-# Automation
+### Automation
 
 All variables for deployment are mananged by terraform.tfvars. 
 
 Further automation process can use Jenkins for building Docker images with updated application code and for building different AWS environments - scaled vertically (changing EC2 instance types) and horizontally (changing amount of instances).
 
-# Network diagrams
+### Network diagrams
 
 Can be built by:
 
